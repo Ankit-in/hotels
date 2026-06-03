@@ -90,6 +90,7 @@ const express = require('express')
 const app = express();
 const db = require('./db');
 
+//body-parser is use to parser and extract the data incoming http request body data
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
